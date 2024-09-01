@@ -1,0 +1,10 @@
+services:
+  flask:
+    build: ./flask
+    ports:
+      - '8000:8000'
+    
+  csharp:
+    build: ./csharp
+    ports:
+      - '5000:5000'
